@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/paybyphone/phpipam-sdk-go/phpipam"
-	"github.com/paybyphone/phpipam-sdk-go/phpipam/client"
-	"github.com/paybyphone/phpipam-sdk-go/phpipam/session"
+	"github.com/Ouest-France/phpipam-sdk-go/phpipam"
+	"github.com/Ouest-France/phpipam-sdk-go/phpipam/client"
+	"github.com/Ouest-France/phpipam-sdk-go/phpipam/session"
 )
 
 // Address represents an IP address resource within PHPIPAM.
