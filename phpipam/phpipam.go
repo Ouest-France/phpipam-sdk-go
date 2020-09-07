@@ -74,8 +74,8 @@ func DefaultConfigProvider() Config {
 			cfg.Password = d[1]
 		case "PHPIPAM_USER_NAME":
 			cfg.Username = d[1]
-		case "PHPIPAM_INSECURE":
-			cfg.Insecure = d[1]
+			// case "PHPIPAM_INSECURE":
+			// 	cfg.Insecure = d[1]
 		}
 	}
 	return cfg
